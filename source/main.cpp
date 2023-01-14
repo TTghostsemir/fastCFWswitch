@@ -121,8 +121,6 @@ public:
         }
         const bool is_erista = hardware_type == 0 || hardware_type == 1;
         if(!is_erista) {
-            // unsupported Switch model, show error
-            return initially<FastCFWSwitchErrorGui>("This Switch model is not supported\n\nReboot to payload is only possible\non an Erista Switch");
         } else {
             // create main GUI with payload selection
             return initially<FastCFWSwitchGui>(useClassic);
