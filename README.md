@@ -2,7 +2,7 @@
 A tesla based overlay to boot into different payloads on the Nintendo Switch.
 
 ## Supported devices
-Only Switch consoles with the old Erista SOC are supported, because exosphere uses a bootrom exploit to reboot to a payload.
+Erisa (V1) and Mariko (V27Lite/OLED) is Supported to this fastCFWswitch Versiom
 
 ## Setup
 * Setup the [tesla menu](https://github.com/WerWolv/Tesla-Menu) and [nx-ovlloader](https://github.com/WerWolv/ovl-sysmodules)
