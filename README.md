@@ -55,6 +55,11 @@ path=/atmosphere/reboot_payload.bin
 name=SX OS
 path=/sxos/reboot_payload.bin
 
+[STOCK]
+name=STOCK
+path=/bootloader/update.bin
+bootId=Stock
+
 [ANDROID]
 name=Android
 path=/bootloader/update.bin
