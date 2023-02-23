@@ -2,7 +2,7 @@
 A tesla based overlay to boot into different payloads on the Nintendo Switch.
 
 ## Supported devices
-Erista (V1) and Mariko (V27Lite/OLED) is Supported to this fastCFWswitch Version
+Erista (V1) and Mariko (V2/Lite/OLED) is Supported to this fastCFWswitch Version
 
 ## Setup
 * Setup the [tesla menu](https://github.com/WerWolv/Tesla-Menu) and [nx-ovlloader](https://github.com/WerWolv/ovl-sysmodules)
