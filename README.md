@@ -86,6 +86,10 @@ path=/bootloader/payloads/Lockpick_RCM.bin
 name=TegraExplorer
 path=/bootloader/payloads/TegraExplorer.bin
 
+[Hwfly_Toolbox]
+name=Hwfly_Toolbox
+path=/bootloader/payloads/hwfly_toolbox.bin
+
 
 [UMS]
 name=hekate UMS options
