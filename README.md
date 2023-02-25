@@ -82,6 +82,10 @@ path=/bootloader/update.bin
 name=Lockpick RCM
 path=/bootloader/payloads/Lockpick_RCM.bin
 
+[TegraExplorer]
+name=TegraExplorer
+path=/bootloader/payloads/TegraExplorer.bin
+
 
 [UMS]
 name=hekate UMS options
