@@ -12,7 +12,7 @@ using namespace tsl::elm;
     auto item = new ListItem(this->name);
     std::function<bool(u64)> onClick = [item, payloadHandler, this](u64 keys) { 
         if(keys & HidNpadButton_A){
-            item->setText("rebooting");
+            item->setText("Neustarten");
             payloadHandler->rebootToPayload(this);
             return true; 
         }

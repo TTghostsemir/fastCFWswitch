@@ -190,7 +190,7 @@ bool PayloadHandler::loadPayload(fastCFWSwitcher::Payload* payload){
     }
 
     if((u64)configFileSize>sizeof(g_reboot_payload)){
-        setError("to big\n");
+        setError("zu gross\n");
         fsFileClose(&fileConfig);
         fsFsClose(&fsSdmc);
         return false;
